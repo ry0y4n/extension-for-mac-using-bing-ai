@@ -1,7 +1,7 @@
 {
-    "name": "BingAI Enter for MacOS",
+    "name": "Bing AI Enter for MacOS",
     "author": "Ryosuke Hyakuta",
-    "version": "0.6",
+    "version": "0.7",
     "manifest_version": 2,
     "description": "Bing on MacOSでエンターを押したときに誤送信されるのを防ぐ",
     "content_scripts": [
