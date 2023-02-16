@@ -1,0 +1,13 @@
+{
+    "name": "BingAI Enter for MacOS",
+    "author": "Ryosuke Hyakuta",
+    "version": "0.6",
+    "manifest_version": 2,
+    "description": "Bing on MacOSでエンターを押したときに誤送信されるのを防ぐ",
+    "content_scripts": [
+        {
+            "matches": [ "https://www.bing.com/search?q=Bing+AI&showconv=1&FORM=hpcodx" ],
+            "js": [ "script.js" ]
+        }
+    ]
+}
