@@ -6,7 +6,7 @@
     "description": "Bing on MacOSでエンターを押したときに誤送信されるのを防ぐ",
     "content_scripts": [
         {
-            "matches": [ "https://www.bing.com/search?q=*" ],
+            "matches": [ "https://www.bing.com/search?*" ],
             "js": [ "script.js" ]
         }
     ]
