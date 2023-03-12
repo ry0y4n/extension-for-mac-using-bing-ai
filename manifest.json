@@ -3,7 +3,7 @@
     "author": "Ryosuke Hyakuta",
     "version": "0.8",
     "manifest_version": 3,
-    "description": "Bing on MacOSでエンターを押したときに誤送信されるのを防ぐ",
+    "description": "MacOSでBing AI Chatを使う際，エンターを押したときに送信されるのを防ぐ拡張機能です．Command + Enterで送信することができます．",
     "content_scripts": [
         {
             "matches": [ "https://www.bing.com/search?*" ],
