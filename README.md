@@ -2,21 +2,24 @@
 
 Bing AIでのチャット送信を`「Command + Enter」`で出来るように改変するブラウザ拡張機能
 
-（MacOSでBing AIを使うと漢字変換を確定する時にチャットが送信されてしまい非常に使いづらいため）
+（MacOSでBing AIを使うと漢字変換を確定する時（`Enter`を押す時）にチャットが送信されてしまい非常に使いづらいため）
 
-### 使用方法
+## 機能
 
-1. Edgeを開く
-2. 右上の三点リーダーから「拡張機能」をクリックし「拡張機能の管理」へ
-3. 「展開して読み込み」をクリックしこのフォルダをアップロード
-4. Edge再起動
+- `Enter`キーが押されたときにチャットが送信されることを防ぐ
+- `Command` + `Enter`が押された時にチャットを送信する
 
-### デモ
+## インストール方法
 
-Before
+1. Chromeウェブストアから拡張機能をインストールします（[リンク](https://chrome.google.com/webstore/detail/bing-ai-enter-for-macos/bdfkkioaofakkiiephkolmgfahjkjfmf/related?hl=ja)）
+2. インストール後，ブラウザを再起動します
+
+## デモ
+
+**Before**
 ![](./images/extension-before.gif)
 
-After
+**After**
 ![](./images/extension-after.gif)
 
 ### 参考記事
