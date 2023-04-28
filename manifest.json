@@ -1,7 +1,7 @@
 {
     "name": "Bing AI Enter for MacOS",
     "author": "Ryosuke Hyakuta",
-    "version": "1.0",
+    "version": "1.1",
     "manifest_version": 3,
     "description": "MacOSでBing AI Chatを使う際，エンターを押したときに送信されるのを防ぐ拡張機能です．Command + Enterで送信することができます．",
     "content_scripts": [
